@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginTop="40dp">
+
+    <TextView
+        android:id="@+id/list_item_textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:paddingTop="30dp"/>
+
+    <ImageView
+        android:id="@+id/list_item_imageview1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp" />
+</LinearLayout>
