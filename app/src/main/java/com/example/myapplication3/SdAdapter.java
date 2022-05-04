@@ -55,9 +55,9 @@ public class SdAdapter extends RecyclerView.Adapter<SdAdapter.ViewHolder> {
                 String clickedName = (String) dataSet.get(position).get("title");
 
                 Intent intent = new Intent(parent.getContext(), DisplayMessageActivity.class);
-                Log.d("yahaha", String.valueOf(position));
                 intent.putExtra("hahahaga", clickedName);
                 parent.getContext().startActivity(intent);
+
             }
 
         });
